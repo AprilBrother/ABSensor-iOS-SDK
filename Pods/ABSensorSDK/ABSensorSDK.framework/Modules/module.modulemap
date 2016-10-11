@@ -1,0 +1,10 @@
+framework module ABSensorSDK {
+  umbrella header "ABSensorSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module ABSensorSDK.Swift {
+    header "ABSensorSDK-Swift.h"
+}
